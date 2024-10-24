@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AustinDB - High-Performance Vector Database</title>
+    <title>AustinDB - High-Performance Vector Database for Handling Data Efficiently</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css">
     <style>
@@ -294,14 +294,13 @@
                 <a href="#features">Features</a>
                 <a href="#documentation">Documentation</a>
                 <a href="#getting-started">Getting Started</a>
-                <a href="#community">Community</a>
             </div>
         </div>
     </nav>
 
     <section class="hero">
         <h1>High-Performance Vector Database</h1>
-        <p>Fast, scalable, and reliable vector similarity search engine for your AI and ML applications</p>
+        <p>Fast, scalable, and dependable vector search engine for powering your AI and ML apps with efficient similarity matching</p>
         <a href="#getting-started" class="cta-button">Get Started</a>
     </section>
 
@@ -310,11 +309,11 @@
         <div class="features-grid">
             <div class="feature-card">
                 <h3>High Performance</h3>
-                <p>Optimized for lightning-fast similarity search with advanced indexing algorithms.</p>
+                <p>Optimized for fast similarity search with advanced indexing algorithms.</p>
             </div>
             <div class="feature-card">
                 <h3>Scalability</h3>
-                <p>Handles billions of vectors with distributed architecture and horizontal scaling.</p>
+                <p>Handles vectors with distributed architecture and horizontal scaling.</p>
             </div>
             <div class="feature-card">
                 <h3>ACID Compliance</h3>
@@ -327,50 +326,12 @@
         </div>
     </section>
 
-    <section class="code-example" id="getting-started">
-        <h2 class="section-title">Quick Start</h2>
-        <div class="code-container">
-            <pre><code class="language-python">
-# Install using pip
-pip install vectordb-client
-
-# Connect to AustinDB
-from vectordb import Client
-
-client = Client(
-    host="localhost",
-    port=6333
-)
-
-# Create a collection
-client.create_collection(
-    name="products",
-    dimension=128
-)
-
-# Add vectors
-client.upload_vectors(
-    collection_name="products",
-    vectors=[[1.2, 0.5, ...], [0.8, 1.1, ...]],
-    ids=[1, 2]
-)
-
-# Search similar vectors
-results = client.search(
-    collection_name="products",
-    query_vector=[1.0, 0.5, ...],
-    limit=10
-)
-            </code></pre>
-        </div>
-    </section>
-
     <section class="documentation" id="documentation">
         <h2 class="section-title">Documentation</h2>
         <div class="doc-grid">
             <div class="doc-card">
                 <h3>Getting Started</h3>
-                <p>Learn the basics and set up your first vector database.</p>
+                <p>Learn the basics and set up your first AustinVector database.</p>
             </div>
             <div class="doc-card">
                 <h3>API Reference</h3>
@@ -406,14 +367,12 @@ results = client.search(
                 <ul>
                     <li><a href="#github">GitHub</a></li>
                     <li><a href="#discord">Discord</a></li>
-                    <li><a href="#twitter">Twitter</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h4>Company</h4>
                 <ul>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#careers">Careers</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
